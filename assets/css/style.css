@@ -1,0 +1,6 @@
+.mini-toastr__notification {
+    opacity: 1 !important;
+}
+.modal-backdrop {
+    background-color: transparent !important;
+}
