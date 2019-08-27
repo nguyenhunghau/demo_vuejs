@@ -2,11 +2,10 @@
   <ul class="sidebar navbar-nav">
     <li class="nav-item active">
       <nuxt-link to="/" class="nav-link">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span>
       </nuxt-link>
     </li>
-    <li class="nav-item dropdown">
+    <!-- <li class="nav-item dropdown">
       <a
         class="nav-link dropdown-toggle"
         href="#"
@@ -16,13 +15,12 @@
         aria-haspopup="true"
         aria-expanded="false"
       >
-        <i class="fas fa-fw fa-folder"></i>
         <span>Pages</span>
       </a>
       <div class="dropdown-menu" aria-labelledby="pagesDropdown">
         <h6 class="dropdown-header">Login Screens:</h6>
         <a class="dropdown-item" href="login.html">Login</a>
-        <!-- <a class="dropdown-item" href="register.html">Register</a> -->
+        <a class="dropdown-item" href="register.html">Register</a>
         <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
         <div class="dropdown-divider"></div>
         <h6 class="dropdown-header">Other Pages:</h6>
@@ -38,13 +36,8 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="tables.html">
-        <i class="fas fa-fw fa-table"></i>
         <span>Tables</span>
       </a>
-    </li>
+    </li> -->
   </ul>
 </template>
-
-<script>
-export default {};
-</script>

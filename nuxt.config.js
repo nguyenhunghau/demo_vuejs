@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description',content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -23,8 +23,6 @@ export default {
   ** Global CSS
   */
   css: [
-     '~/plugins/fontawesome-free/css/all.min.css',
-     '~/plugins/datatables/dataTables.bootstrap4.css',
      '~/assets/css/sb-admin.css',
      '~/assets/css/style.css',
   ],
@@ -44,7 +42,7 @@ export default {
   */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Build configuration
@@ -60,23 +58,4 @@ export default {
   env: {
     api_url: 'http://localhost:8083/demo_vuejs/'
   }
-  // router: {
-  //   routes: [
-  //     {
-  //       name: 'index',
-  //       path: '/',
-  //       component: 'pages/index.vue'
-  //     },
-  //     {
-  //       name: 'chart',
-  //       path: '/chart',
-  //       component: 'pages/chart.vue'
-  //     },
-  //     {
-  //       name: 'edit-person',
-  //       path: '/edit-person/:slug',
-  //       component: 'pages/edit-person.vue'
-  //     }
-  //   ]
-  // }
 }
